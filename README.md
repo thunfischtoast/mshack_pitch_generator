@@ -11,3 +11,7 @@ A automatic pitch generator for https://muensterhack.de/
 Install dependencies: `npm install`
 
 Run dev environment: `npm run dev`
+
+Create productive build: `npm run build`
+
+Deploy: `npm run deploy`

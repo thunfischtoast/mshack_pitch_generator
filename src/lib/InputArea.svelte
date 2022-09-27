@@ -167,6 +167,15 @@
     }
 </script>
 
+<div class="github-ribbon">
+    <a target="_blank" href="https://github.com/thunfischtoast/mshack_pitch_generator">Fork me on GitHub</a>
+</div>
+
+<div>
+    Lets creata a nice pitch for the <a href="https://muensterhack.de" target="_blank">Münsterhack</a>:
+</div>
+
+<hr />
 <div>
     Stichwort: <input bind:value={stichwort_input} />
     <button on:click={handleSuggest}>Vorschlagen</button>
@@ -198,3 +207,32 @@
         {teamname_output}: {closings_output}.
     </p>
 </div>
+
+<style>
+    .github-ribbon {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        z-index: 99999;
+        top: 0px;
+        left: 0px;
+    }
+    .github-ribbon a {
+        display: inline-block;
+        width: 200px;
+        overflow: hidden;
+        padding: 6px 0px;
+        text-align: center;
+        transform: rotate(-45deg);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        position: inherit;
+        font: 700 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0px;
+        background-color: rgb(170, 0, 0);
+        top: 45px;
+        left: -40px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+    }
+</style>

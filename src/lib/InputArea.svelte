@@ -24,17 +24,17 @@
     const TYPE_VARIANTS = ["App", "Lösung", "Idee", "Projekt"];
     const INTENT_VARIANTS = ["möchten", "wollen", "können", "müssen"];
     const MEANS_VARIANTS = ["die Anwendung", "die Visualisierung", "die Mithilfe", "das Angebot"];
-    const VALUE_VARIANTS = ["lebenswerter", "sicherer", "schöner", "nachhaltiger"];
+    const VALUE_VARIANTS = ["lebenswerter", "sicherer", "schöner", "nachhaltiger", "besser", "jovler"];
     const MAP_VARIANTS = ["sehen", "erkennen", "finden", "entdecken", "verschieben", "hinzufügen"];
-    const AI_VARIANTS = ["KI", "Machine Learning", "Deep Learning", "Neuronaler Netze"];
+    const AI_VARIANTS = ["KI", "Machine Learning", "Deep Learning", "Neuronaler Netze", "AI"];
     const AI_ACTION_VARIANTS = ["identifiziert", "erkannt", "gefunden", "klassifiziert", "analysiert"];
     const RELEVANCE_VARIANTS = ["relevanten", "wichtigen", "passenden"];
     const CITY_VARIANTS = ["Münster", "unserer Stadt", "die Stadt"];
     const USER_VARIANTS = ["Nutzern", "Nutzer:innen", "Nutzerinnen", "Anwendern", "Anwender:innen", "Anwenderinnen"];
-    const NEEDED_VARIANTS = ["Frontendler", "Designer", "Experten", "Backendler", "Datenbankentwickler", "Tester", "Pitchschreiber", "Projektleiter"];
-    const TECHSTACK_FRONTEND_VARIANTS = ["Svelte", "React", "Vue", "Angular", "Flutter", "Ionic", "Electron", "PWA"];
-    const TECHSTACK_BACKEND_VARIANTS = ["FastAPI", "Flask", "Django", "Express", "Spring", "Ruby on Rails", "Laravel", "ASP.NET"];
-    const TECHSTACK_DB_VARIANTS = ["Postgres", "MySQL", "MariaDB", "SQLite", "MongoDB", "CouchDB", "Redis", "Neo4j"];
+    const NEEDED_VARIANTS = ["Frontendler", "Designer", "Experten", "Backendler", "Datenbankentwickler", "Tester", "Pitchschreiber", "Projektleiter", "UX-Experten"];
+    const TECHSTACK_FRONTEND_VARIANTS = ["Svelte", "React", "Vue", "Angular", "Flutter", "Ionic", "Electron", "PWA", "jQuery"];
+    const TECHSTACK_BACKEND_VARIANTS = ["FastAPI", "Flask", "Django", "Express", "Spring", "Ruby on Rails", "Laravel", "ASP.NET", "Elixir"];
+    const TECHSTACK_DB_VARIANTS = ["Postgres", "MySQL", "MariaDB", "SQLite", "MongoDB", "CouchDB", "Redis", "Neo4j", "DynamoDB"];
     const CLOSINGS_VARIANTS = ["Super", "Nachhaltig", "Jovel", "Attraktiv", "Besser", "Sicher", "Schön", "Inspirierend", "Gesellschaftsfördernd", "Einfach", "Ressourcenschonend"];
     const TOPIC_VARIANTS = [
         "Fahrräder",
@@ -44,6 +44,7 @@
         "Veranstaltungen",
         "Bäume",
         "Hunde",
+        "Haustiere",
         "Kinder",
         "Mobilität",
         "Blutspenden",
@@ -52,6 +53,7 @@
         "Klima",
         "Parkplätze",
         "Nachhaltigkeit",
+        "Sicherheit",
         "ÖPNV",
         "Weihnachtsmärkte",
     ];

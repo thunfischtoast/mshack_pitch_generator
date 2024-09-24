@@ -15,3 +15,9 @@ Run dev environment: `npm run dev`
 Create productive build: `npm run build`
 
 Deploy: `npm run deploy`
+
+### With Docker
+
+Build environment (hacky dev container): `docker build -t mshack-pitch-generator .`
+
+Run: `docker run --rm -p 5173:5173 mshack-pitch-generator`

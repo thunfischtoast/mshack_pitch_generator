@@ -5,4 +5,8 @@ import { svelte } from "@sveltejs/vite-plugin-svelte";
 export default defineConfig({
     base: "/mshack_pitch_generator/",
     plugins: [svelte()],
+    server: {
+        host: true,
+        port: 5173
+    }
 });

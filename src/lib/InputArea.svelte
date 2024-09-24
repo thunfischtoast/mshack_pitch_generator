@@ -99,7 +99,7 @@
         } else if (random_number < 0.75) {
             teamname_output = stichwort_input + "MS";
         } else {
-            teamname_output = teamname_output.replaceAll("u", "oo").replaceAll("ä", "ay").replaceAll("o", "0").replaceAll(intent_output, "y");
+            teamname_output = stichwort_input.replaceAll("u", "oo").replaceAll("ä", "ay").replaceAll("o", "0").replaceAll(intent_output, "y");
         }
 
         return teamname_output;

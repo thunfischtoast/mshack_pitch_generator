@@ -26,10 +26,10 @@
     const MEANS_VARIANTS = ["die Anwendung", "die Visualisierung", "die Mithilfe", "das Angebot"];
     const VALUE_VARIANTS = ["lebenswerter", "sicherer", "schöner", "nachhaltiger", "besser", "jovler"];
     const MAP_VARIANTS = ["sehen", "erkennen", "finden", "entdecken", "verschieben", "hinzufügen"];
-    const AI_VARIANTS = ["KI", "Machine Learning", "Deep Learning", "Neuronaler Netze", "AI"];
+    const AI_VARIANTS = ["KI", "Machine Learning", "Deep Learning", "Neuronaler Netze", "AI", "Large Language Models", "LLM", "ChatGPT"];
     const AI_ACTION_VARIANTS = ["identifiziert", "erkannt", "gefunden", "klassifiziert", "analysiert"];
     const RELEVANCE_VARIANTS = ["relevanten", "wichtigen", "passenden"];
-    const CITY_VARIANTS = ["Münster", "unserer Stadt", "die Stadt"];
+    const CITY_VARIANTS = ["Münster", "unsere Stadt", "die Stadt"];
     const USER_VARIANTS = ["Nutzern", "Nutzer:innen", "Nutzerinnen", "Anwendern", "Anwender:innen", "Anwenderinnen"];
     const NEEDED_VARIANTS = ["Frontendler", "Designer", "Experten", "Backendler", "Datenbankentwickler", "Tester", "Pitchschreiber", "Projektleiter", "UX-Experten"];
     const TECHSTACK_FRONTEND_VARIANTS = ["Svelte", "React", "Vue", "Angular", "Flutter", "Ionic", "Electron", "PWA", "jQuery"];
@@ -209,6 +209,10 @@
         {teamname_output}: {closings_output}.
     </p>
 </div>
+<hr />
+<footer>
+Proudly made without the use of LLMs, just sweat, coffee and beer.
+</footer>
 
 <style>
     .github-ribbon {
